@@ -24,7 +24,7 @@ module Spree
       end
 
       def add_password_reset(options={})
-        add(new_user_password_path, options)
+        add(spree_user_password_path, options)
       end
 
       def add_products(options={})
